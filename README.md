@@ -49,7 +49,7 @@ The main objective of this project is to practice and understand the basic Flutt
 ## 🖼️ Output Screenshot
 
 ### Mobile Output
-![Mobile Output](screenshots/final_output.png)
+![Mobile Output](screenshots/mobile_output/image1.png)
 
 > **Note:** More screenshots will be added in future updates.
 
