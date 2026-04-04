@@ -1,17 +1,77 @@
-# app
+# Mobile App Development - Flutter UI Assignment
 
-A new Flutter project.
+## 📌 Project Title
+Basic UI Design using Flutter
 
-## Getting Started
+## 👨‍🎓 Student Information
+- **Name:** Sourav Debnath
+- **Roll:** 22CSE009
+- **Department:** CSE
+- **Batch:** 9th Batch
+- **University:** University of Barishal
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📖 Project Overview
+This project is a simple and attractive **Basic UI Design** built with **Flutter**.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+The design was created based on the course teacher's class layout instructions using:
+- `Container`
+- `Row`
+- `Column`
+- `Expanded`
+- `Stack`
+- `Align`
+- `BoxDecoration`
+- `BorderRadius`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This UI displays:
+- **Roll**
+- **Blood Group**
+- **District**
+- **Registration Number**
+- **Nickname**
+- **Full Name**
+
+---
+
+## 🎯 Assignment Objective
+The main objective of this project is to practice and understand the basic Flutter UI layout system, especially:
+
+- How to use `Row` and `Column`
+- How to manage spacing and alignment
+- How to design UI using `Container`
+- How to style widgets using `BoxDecoration`
+- How to use `Stack` and `Align` for custom positioning
+
+---
+
+## 🖼️ Output Screenshot
+
+### Mobile Output
+![Mobile Output](screenshots/final_output.png)
+
+> **Note:** More screenshots will be added in future updates.
+
+---
+
+## 🛠️ Technologies Used
+- **Flutter**
+- **Dart**
+- **Material Design Widgets**
+
+---
+
+## 📂 Project Structure
+```bash
+app/
+├── android/
+├── ios/
+├── lib/
+│   └── main.dart
+├── test/
+│   └── widget_test.dart
+├── screenshots/
+│   └── final_output.png
+├── pubspec.yaml
+└── README.md
