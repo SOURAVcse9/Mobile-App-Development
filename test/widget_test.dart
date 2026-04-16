@@ -1,35 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:app/main.dart';
+import 'package:app/tasks/layout_design_02.dart';
 
 void main() {
-  testWidgets('Student info UI test', (WidgetTester tester) async {
-    // Build our app
-    await tester.pumpWidget(const BUCSE9());
+  testWidgets('Layout Design 02 UI test', (WidgetTester tester) async {
+    await tester.pumpWidget(const LayoutDesign02());
 
-    // Check AppBar title
-    expect(find.text('4th April 2026'), findsOneWidget);
+    expect(find.text('Secondary Numbers'), findsOneWidget);
 
-    // Check Roll
-    expect(find.text('22CSE009'), findsOneWidget);
+    expect(find.text('+1 (555) 987-6543'), findsOneWidget);
+    expect(find.text('Home • Added 2mo ago'), findsOneWidget);
 
-    // Check Blood Group
-    expect(find.text('B+'), findsOneWidget);
+    expect(find.text('+44 20 7123 4567'), findsOneWidget);
+    expect(find.text('Work • Unverified'), findsOneWidget);
 
-    // Check District
-    expect(find.text('Barishal'), findsOneWidget);
-
-    // Check Registration
-    expect(find.text('2110-009-22'), findsOneWidget);
-
-    // Check Nickname
-    expect(find.text('Sourav'), findsOneWidget);
-
-    // Check Full Name
-    expect(find.text('Sourav Debnath'), findsOneWidget);
-
-    // Check back icon exists
-    expect(find.byIcon(Icons.arrow_back), findsOneWidget);
+    expect(find.byIcon(Icons.phone), findsNWidgets(2));
+    expect(find.byIcon(Icons.edit), findsNWidgets(2));
+    expect(find.byIcon(Icons.delete), findsNWidgets(2));
   });
 }
