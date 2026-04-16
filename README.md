@@ -109,10 +109,10 @@ The design includes:
 ### 🖼️ Output Screenshots
 
 #### Mobile Output
-![Assignment 02 Mobile Output](screenshots/layout_desigh_02/SouravDebnath_22CSE009_Layout_Design_02_Mobile.png)
+![Assignment 02 Mobile Output](screenshots/layout_design_02/SouravDebnath_22CSE009_Layout_Design_02_Mobile.png)
 
 #### PC Output
-![Assignment 02 PC Output](screenshots/layout_desigh_02/SouravDebnath_22CSE009_Layout_Design_02_PC.png)
+![Assignment 02 PC Output](screenshots/layout_design_02/SouravDebnath_22CSE009_Layout_Design_02_PC.png)
 
 > **Note:** If you rename the folder from `layout_desigh_02` to `layout_design_02`, update the image paths in this README as well.
 
